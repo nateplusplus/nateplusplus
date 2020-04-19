@@ -1,0 +1,32 @@
+body {
+    font: 100%/1.2 'Helvetica Neue', 'Arial', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f3f6;
+    border-radius: 22px;
+    padding: 2em 4em;
+    box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #2273CB;
+    text-decoration: none;
+}
+    a:visited {
+        color: #2273CB;
+    }
+    a:active {
+        color: #2273CB;
+    }
+    a:hover {
+        color: #3687DD;
+        text-decoration: underline;
+    }
+    a:focus {
+        color: #3687DD;
+    }
