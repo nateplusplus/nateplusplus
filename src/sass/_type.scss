@@ -1,0 +1,19 @@
+body {
+    font: 100%/1.2 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+a {
+    color: #2273CB;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: #3687DD;
+        text-decoration: underline;
+    }
+
+    &:visited,
+    &:active {
+        color: #2273CB;
+    }
+}

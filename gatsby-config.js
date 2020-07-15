@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `NateHub`,
+    title: `Natehub`,
     description: `One place, all Nate's nerdy things.`,
     author: `@nateplusplus`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

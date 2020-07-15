@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+svg {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    
+    image {
+        x: 0;
+        y: -50%;
+        transition: all 1s ease;
+    }
+
+    text {
+        font-family: fatfrank, sans-serif;
+        font-size: 18em;
+        stroke: $grey-transparent-75;
+        -webkit-font-smoothing: antialiased;
+    }
+}
