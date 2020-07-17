@@ -79,7 +79,6 @@ SvgImageText.prototype = {
      * Handle click events.
      **/
     handleNavItemClick: function (event) {
-        event.preventDefault();
         this.doAnimation(event);
         this.setActiveLink();
     },

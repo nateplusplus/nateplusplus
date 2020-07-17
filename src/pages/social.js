@@ -1,10 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const SocialPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <section>
       <h3>Places to stalk me</h3>
@@ -26,8 +25,7 @@ const SocialPage = () => (
         </li>
       </ul>
     </section>
-
-  </Layout>
+  </>
 )
 
 export default SocialPage

@@ -27,7 +27,7 @@ class Header extends React.Component {
               </defs>
               <g mask="url(#text-mask-1)">
                 <image id="img1" href="https://source.unsplash.com/sp-p7uuT0tw/1920x1000/" width="150%" />
-                <image id="img2" className="is-transparent" href="https://source.unsplash.com/featured/1920x1000/?nature,water" width="150%" />
+                <image id="img2" className="is-transparent" href="https://source.unsplash.com/featured/1920x1000/?nature" width="150%" />
                 <image id="img3" className="is-transparent" href="https://source.unsplash.com/featured/1920x1000/?architecture" width="150%" />
                 <image id="img4" className="is-transparent" href="https://source.unsplash.com/featured/1920x1000/?textures-patterns" width="150%" />
                 <image id="img5" className="is-transparent" href="https://source.unsplash.com/featured/1920x1000/?experimental" width="150%" />

@@ -1,5 +1,11 @@
 body {
     font: 100%/1.2 'Helvetica Neue', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #DDD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: .5px;
 }
 
 a {

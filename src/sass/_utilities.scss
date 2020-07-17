@@ -8,6 +8,6 @@
     x: -50% !important;
 }
 .is-active {
-    border-color: black;
-    font-weight: bold;
+    color: darken( $grey-light, 25 ) !important;
+    text-decoration: underline !important;
 }

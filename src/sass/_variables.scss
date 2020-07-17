@@ -1,2 +1,19 @@
+$grey-lightest: #FAFAFA;
+$grey-lighter: #DDD;
+$grey-light: #BBB;
+$grey: #999;
+$grey-dark: #777;
+$grey-darker: #555;
+$grey-darkest: #222;
+
 $grey-transparent-75: rgba(0,0,0,0.75);
 $turbo-yellow: #f9ca24;
+
+
+$grid-breakpoints: (
+    'sm' : 375px,
+    'md' : 768px,
+    'md-lg' : 1024px,
+    'lg' : 1440px,
+    'xl' : 1920px
+);

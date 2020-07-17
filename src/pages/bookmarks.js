@@ -1,10 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <section>
       <h3>Cool web dev stuff</h3>
@@ -15,7 +14,7 @@ const IndexPage = () => (
       </ul>
     </section>
 
-  </Layout>
+  </>
 )
 
 export default IndexPage
