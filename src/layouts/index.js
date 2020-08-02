@@ -14,9 +14,9 @@ import "../sass/style.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
+    query WPDataQuery {
+      wp {
+        generalSettings {
           title
         }
       }
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.wp.generalSettings.title} />
       <main>
         {children}
       </main>
